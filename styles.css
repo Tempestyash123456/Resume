@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 900px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    width: 35%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #b30000;
+}
+
+.right-section {
+    width: 65%;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #b30000;
+    margin: 15px 0 5px;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    color: #555;
+}
+
+a {
+    color: #b30000;
+    text-decoration: none;
+}
+
+.left-section h2, .right-section h2 {
+    border-bottom: 1px solid #b30000;
+    padding-bottom: 3px;
+}
+
+.left-section p, .right-section p {
+    margin-bottom: 10px;
+}
+
+.left-section .email, .left-section .phone, .left-section .linkedin {
+    font-size: 0.9em;
+}
+
+.right-section strong {
+    font-weight: bold;
+}
+
+.right-section em {
+    font-style: italic;
+    color: #888;
+}
+
+.profile-image {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.profile-image img {
+    width: 140px;
+    height: 180px;
+    border: 2px solid #b30000;
+}
+
+.programming-languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.language img {
+    width: 24px;
+    height: 24px;
+    fill: #333; /* Applies color to SVG icons */
+}
+
+.language span {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.technical-competencies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.competency {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.competency img {
+    width: 24px;
+    height: 24px;
+}
+
+.competency span {
+    font-size: 0.9em;
+    color: #333;
+}
