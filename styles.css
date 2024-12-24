@@ -48,7 +48,7 @@ h2 {
 p {
     font-size: 0.9em;
     line-height: 1.4em;
-    color: #555;
+    color: #000;
 }
 
 a {
@@ -75,7 +75,7 @@ a {
 
 .right-section em {
     font-style: italic;
-    color: #888;
+    color: #000;
 }
 
 .profile-image {
