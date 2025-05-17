@@ -4,186 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yash Dwivedi | Resume</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-    
-    body {
-      background-color: #f8f8f8;
-      color: #000;
-      line-height: 1.3;
-      font-size: 12px;
-    }
-    
-    .resume-container {
-      width: 21cm; /* A4 width */
-      height: 29.7cm; /* A4 height */
-      margin: 0 auto;
-      background: white;
-      display: flex;
-      flex-direction: row;
-      padding: 0.8cm;
-      overflow: hidden;
-    }
-    
-    .left-section {
-      width: 32%;
-      padding-right: 12px;
-    }
-    
-    .right-section {
-      width: 68%;
-      padding-left: 12px;
-      border-left: 1px solid #e0e0e0;
-    }
-    
-    .profile-image {
-      text-align: center;
-      margin-bottom: 15px;
-    }
-    
-    .profile-image img {
-      width: 135px;
-      height: 135px;
-      border: 2px solid #cc0000;
-    }
-    
-    h1 {
-      font-size: 22px;
-      margin-bottom: 12px;
-      color: #cc0000;
-    }
-    
-    h2 {
-      font-size: 14px;
-      margin: 14px 0 8px;
-      padding-bottom: 4px;
-      border-bottom: 1px solid #cc0000;
-      color: #cc0000;
-    }
-    
-    p {
-      margin-bottom: 5px;
-    }
-    
-    a {
-      color: #cc0000;
-      text-decoration: none;
-    }
-    
-    .contact-info {
-      margin: 12px 0;
-    }
-    
-    .contact-info p {
-      margin-bottom: 6px;
-      font-size: 12px;
-    }
-    
-    .section-header {
-      display: flex;
-      align-items: center;
-      margin-bottom: 8px;
-    }
-    
-    .section-header h2 {
-      margin: 0;
-      border-bottom: none;
-    }
-    
-    .section-header::after {
-      content: "";
-      flex-grow: 1;
-      height: 1px;
-      background-color: #cc0000;
-      margin-left: 10px;
-    }
-    
-    .skills-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin: 6px 0 10px;
-    }
-    
-    .skill-button {
-      background-color: #f8f8f8;
-      border: 1px solid #cc0000;
-      padding: 2px 5px;
-      border-radius: 4px;
-      font-size: 12px;
-      display: inline-block;
-    }
-    
-    .project-item, .education-item {
-      margin-bottom: 10px;
-    }
-    
-    .project-title {
-      font-weight: bold;
-    }
-    
-    .date {
-      font-style: italic;
-      font-size: 12px;
-      margin-bottom: 3px;
-    }
-    
-    .company-name {
-      font-weight: bold;
-    }
-    
-    .job-duration {
-      font-style: italic;
-      font-size: 12px;
-    }
-    
-    ul {
-      padding-left: 15px;
-      margin: 4px 0;
-    }
-    
-    li {
-      margin-bottom: 2px;
-      font-size: 12px;
-    }
-    
-    .project-description {
-      margin-bottom: 4px;
-      font-size: 12px;
-    }
-    
-    .technologies {
-      font-style: italic;
-      margin-top: 2px;
-      font-size: 12px;
-    }
-    
-    .summary-text {
-      font-size: 12px;
-    }
-    
-    @media print {
-      body {
-        background-color: white;
-      }
-      
-      .resume-container {
-        box-shadow: none;
-        margin: 0;
-        padding: 0.6cm;
-      }
-      
-      @page {
-        size: A4;
-        margin: 0;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="resume-container">
@@ -195,17 +16,17 @@
       <h1>YASH DWIVEDI</h1>
       
       <div class="contact-info">
-        <p>Address: MORINDA, PUNJAB-140101</p>
+        <p>Address: MORINDA, PUNJAB</p>
         <p>Email: <a href="mailto:yashdubey262@gmail.com">yashdubey262@gmail.com</a></p>
         <p>Phone: +91 8384828468</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yash-dwivedi-793983249" target="_blank">linkedin.com/in/yash-dwivedi-793983249</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yash-dwivedi-793983249" target="_blank">yash-dwivedi-793983249</a></p>
       </div>
       
       <div class="section-header">
         <h2>Professional Summary</h2>
       </div>
       <p class="summary-text">
-        DevOps Engineer with expertise in CI/CD pipeline implementation, cloud infrastructure automation, and containerization technologies. Skilled in designing scalable AWS cloud architectures, implementing Infrastructure as Code with Terraform, and orchestrating containerized applications using Docker and Kubernetes.
+        <strong>DevOps Engineer</strong> with expertise in CI/CD pipeline implementation, cloud infrastructure automation, and containerization technologies. Skilled in designing scalable AWS cloud architectures, implementing Infrastructure as Code with Terraform, and orchestrating containerized applications using Docker and Kubernetes.
       </p>
       
       <div class="section-header">
@@ -218,15 +39,14 @@
         <span class="skill-button">Kubernetes</span>
         <span class="skill-button">Terraform</span>
         <span class="skill-button">Linux</span>
-        <span class="skill-button">CI/CD</span>
         <span class="skill-button">Git</span>
-        <span class="skill-button">Node.js</span>
         <span class="skill-button">Python</span>
         <span class="skill-button">JavaScript</span>
-        <span class="skill-button">Java</span>
         <span class="skill-button">C++</span>
         <span class="skill-button">Ansible</span>
         <span class="skill-button">React</span>
+        <span class="skill-button">PostgreSQL</span>
+        <span class="skill-button">TypeScript</span>
       </div>
       
       <div class="section-header">
@@ -237,18 +57,13 @@
         <span class="skill-button">Infrastructure as Code</span>
         <span class="skill-button">Containerization</span>
         <span class="skill-button">CI/CD Pipelines</span>
-        <span class="skill-button">Monitoring</span>
-        <span class="skill-button">Cloud Cost Optimization</span>
         <span class="skill-button">Agile Methodologies</span>
         <span class="skill-button">Version Control</span>
+        <span class="skill-button">SaaS Development</span>
+        <span class="skill-button">SQL / NoSQL</span>
+        <span class="skill-button">Project Lifecycle Management</span>
+        <span class="skill-button">Database Management</span>
       </div>
-      
-      <div class="section-header">
-        <h2>Personal Details</h2>
-      </div>
-      <p>Mother's Name: Aradhana</p>
-      <p>Father's Name: Rajnish Dwivedi</p>
-      <p>D.O.B.: 23-12-2002</p>
     </div>
     
     <div class="right-section">
@@ -259,7 +74,7 @@
       
       <div class="education-item">
         <p><strong>Bachelors in Computer Science Engineering</strong> | Chandigarh University, Gharuan</p>
-        <p><i>Session: 2022-2026 | Score: 8.89 CGPA</i></p>
+        <p><i>Session: 2022-2026 | Score: 8.95 CGPA</i></p>
       </div>
       
       <div class="education-item">
@@ -347,9 +162,10 @@
         <span class="skill-button">Management & Coordination</span>
         <span class="skill-button">Decision Making</span>
         <span class="skill-button">Problem Solving</span>
-        <span class="skill-button">Technical Documentation</span>
+        <span class="skill-button">Documentation</span>
         <span class="skill-button">Communication</span>
         <span class="skill-button">Collaboration</span>
+        <span class="skill-button">Critical Thinking</span>
       </div>
     </div>
   </div>
