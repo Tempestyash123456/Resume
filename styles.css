@@ -1,185 +1,186 @@
 * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-    
-    body {
-      background-color: #f8f8f8;
-      color: #000;
-      line-height: 1.3;
-      font-size: 14px;
-    }
-    
-    .resume-container {
-      width: 21cm; /* A4 width */
-      height: 29.7cm; /* A4 height */
-      margin: 0 auto;
-      background: white;
-      display: flex;
-      flex-direction: row;
-      padding: 0.8cm;
-      overflow: hidden;
-    }
-    
-    .left-section {
-      width: 32%;
-      padding-right: 12px;
-    }
-    
-    .right-section {
-      width: 68%;
-      padding-left: 12px;
-      border-left: 1px solid #fffbfb;
-    }
-    
-    .profile-image {
-      text-align: left;
-      margin-bottom: 15px;
-    }
-    
-    .profile-image img {
-      width: 135px;
-      height: 135px;
-      border: 2px solid #cc0000;
-    }
-    
-    h1 {
-      font-size: 22px;
-      margin-bottom: 12px;
-      color: #cc0000;
-    }
-    
-    h2 {
-      font-size: 18px;
-      /* underline  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-      margin: 14px 0 8px;
-      padding-bottom: 4px;
-      border-bottom: 1px solid #cc0000;
-      color: #cc0000;
-    }
-    
-    p {
-      margin-bottom: 5px;
-    }
-    
-    a {
-      color: #cc0000;
-      text-decoration: none;
-    }
-    
-    .contact-info {
-      margin: 12px 0;
-    }
-    
-    .contact-info p {
-      margin-bottom: 6px;
-      font-size: 14px;
-    }
-    
-    .section-header {
-      display: flex;
-      align-items: center;
-      margin-bottom: 8px;
-    }
-    
-    .section-header h2 {
-      margin: 0;
-      border-bottom: none;
-    }
-    
-    .section-header::after {
-      content: "";
-      flex-grow: 1;
-      height: 1px;
-      background-color: #cc0000;
-      margin-left: 10px;
-    }
-    
-    .skills-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin: 6px 0 10px;
-    }
-    
-    .skill-button {
-      background-color: #f8f8f8;
-      border: 1px solid #cc0000;
-      padding: 2px 5px;
-      border-radius: 4px;
-      font-size: 13px;
-      display: inline-block;
-    }
-    
-    .project-item, .education-item {
-      margin-bottom: 10px;
-    }
-    
-    .project-title {
-      font-weight: bold;
-    }
-    
-    .date {
-      font-style: italic;
-      font-size: 13px;
-      margin-bottom: 3px;
-    }
-    
-    .company-name {
-      font-weight: bold;
-    }
-    
-    .job-duration {
-      font-style: italic;
-      font-size: 14px;
-    }
-    
-    ul {
-      padding-left: 15px;
-      margin: 4px 0;
-    }
-    
-    li {
-      margin-bottom: 2px;
-      font-size: 15px;
-    }
-    
-    .project-description {
-      margin-bottom: 4px;
-      font-size: 15px;
-    }
-    
-    .technologies {
-      font-style: italic;
-      margin-top: 2px;
-      font-size: 15px;
-    }
-    
-    .summary-text {
-      font-size: 15px;
-    }
-    
-    @media print {
-      body {
-        background-color: white;
-      }
-      
-      .resume-container {
-        box-shadow: none;
-        margin: 0;
-        padding: 0.6cm;
-      }
-      
-      @page {
-        size: A4;
-        margin: 0;
-      }
-    }
+body {
+  background-color: #f8f8f8;
+  color: #000;
+  line-height: 1.3;
+  font-size: 14px;
+}
 
-    .certification-text {
-      font-size: 15px;
-      margin-bottom: 4px;
-    }
+.resume-container {
+  width: 21cm; /* Keep A4 width */
+  min-height: 29.7cm; /* Allow more height as content grows */
+  margin: 0 auto;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  padding: 0.8cm;
+  overflow: visible; /* Make sure nothing is hidden */
+}
+
+.left-section {
+  width: 32%;
+  padding-right: 12px;
+}
+
+.right-section {
+  width: 68%;
+  padding-left: 12px;
+  border-left: 1px solid #fffbfb;
+}
+
+.profile-image {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.profile-image img {
+  width: 135px;
+  height: 135px;
+  border: 2px solid #cc0000;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #cc0000;
+}
+
+h2 {
+  font-size: 18px;
+  /* underline  */
+
+  margin: 14px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #cc0000;
+  color: #cc0000;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+.contact-info {
+  margin: 12px 0;
+}
+
+.contact-info p {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.section-header h2 {
+  margin: 0;
+  border-bottom: none;
+}
+
+.section-header::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #cc0000;
+  margin-left: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0 10px;
+}
+
+.skill-button {
+  background-color: #f8f8f8;
+  border: 1px solid #cc0000;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.project-item,
+.education-item {
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.date {
+  font-style: italic;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.company-name {
+  font-weight: bold;
+}
+
+.job-duration {
+  font-style: italic;
+  font-size: 14px;
+}
+
+ul {
+  padding-left: 15px;
+  margin: 4px 0;
+}
+
+li {
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+.project-description {
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+.technologies {
+  font-style: italic;
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+.summary-text {
+  font-size: 15px;
+}
+
+@media print {
+  body {
+    background-color: white;
+  }
+
+  .resume-container {
+    box-shadow: none;
+    margin: 0;
+    padding: 0.6cm;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+}
+
+.certification-text {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
